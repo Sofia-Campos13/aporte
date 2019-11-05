@@ -20,7 +20,7 @@
             android:layout_height="80dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/mysql" />
+            android:src="@drawable/sql" />
 
 
         <RelativeLayout
@@ -140,7 +140,7 @@
                 android:text="ENTRAR"
                 android:background="@drawable/btn_mov1"
                 android:textAllCaps="false"
-                android:textColor="@color/black"
+                android:textColor="@color/cardview_dark_background"
                 android:textSize="16sp"
 
                 />

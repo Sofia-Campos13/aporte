@@ -6,4 +6,6 @@
     <item name="action_limpiar" type="id" />
     <item name="action_listaArticulos" type="id" />
     <item name="action_salir" type="id" />
+    <item name="linlay1" type="id" />
+    <item name="tv_login" type="id" />
 </resources>

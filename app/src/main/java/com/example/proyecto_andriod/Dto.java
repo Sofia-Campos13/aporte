@@ -41,6 +41,3 @@ public class Dto implements Serializable {
         this.precio = precio;
     }
 }
-
-
-}

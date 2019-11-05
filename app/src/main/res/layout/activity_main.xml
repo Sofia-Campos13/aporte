@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/personas"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="REGISTRO DE Empleado"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:background="@drawable/text"
+        android:shadowColor="#030302"
+        android:shadowDx="7"
+        android:shadowDy="1"
+        android:shadowRadius="5"/>
+
+    <EditText
+        android:id="@+id/edtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:background="@drawable/text"
+        android:shadowColor="#030302"
+        android:shadowDx="7"
+        android:shadowDy="1"
+        android:shadowRadius="5"/>
+
+    <EditText
+        android:id="@+id/edtTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Tipo Empleado"
+        android:inputType="textAutoComplete"
+        android:textAlignment="center"
+        android:background="@drawable/text"
+        android:shadowColor="#030302"
+        android:shadowDx="7"
+        android:shadowDy="1"
+        android:shadowRadius="5"/>
+
+    <EditText
+        android:id="@+id/edtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Salario"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:background="@drawable/text"
+        android:shadowColor="#030302"
+        android:shadowDx="7"
+        android:shadowDy="1"
+        android:shadowRadius="5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_nuevo"
+            tools:ignore="VectorDrawableCompat"
+            android:background="@drawable/button"
+            android:shadowColor="#030302"
+            android:shadowDx="7"
+            android:shadowDy="1"
+            android:shadowRadius="5"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_guardar"
+            tools:ignore="VectorDrawableCompat"
+            android:background="@drawable/button"
+            android:shadowColor="#030302"
+            android:shadowDx="7"
+            android:shadowDy="1"
+            android:shadowRadius="5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_buscar_codigo"
+            tools:ignore="VectorDrawableCompat"
+            android:background="@drawable/button"
+            android:shadowColor="#030302"
+            android:shadowDx="7"
+            android:shadowDy="1"
+            android:shadowRadius="5"/>
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_buscar_descripcion"
+            tools:ignore="VectorDrawableCompat"
+            android:background="@drawable/button"
+            android:shadowColor="#030302"
+            android:shadowDx="7"
+            android:shadowDy="1"
+            android:shadowRadius="5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_modificar"
+            tools:ignore="VectorDrawableCompat"
+            android:background="@drawable/button"
+            android:shadowColor="#030302"
+            android:shadowDx="7"
+            android:shadowDy="1"
+            android:shadowRadius="5"/>
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_borrar"
+            tools:ignore="VectorDrawableCompat"
+            android:background="@drawable/button"
+            android:shadowColor="#030302"
+            android:shadowDx="7"
+            android:shadowDy="1"
+            android:shadowRadius="5"/>
+    </LinearLayout>
+</LinearLayout>
